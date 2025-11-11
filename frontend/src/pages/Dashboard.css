@@ -1,0 +1,86 @@
+.dashboard-wrapper {
+  max-width: 800px;
+  margin: 50px auto;
+  color: white;
+  padding: 20px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logout-btn {
+  background: #ff6464;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.task-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.task-form input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  background: #2a2a2a;
+  color: white;
+}
+
+.add-btn {
+  background: #61dafb;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tasks-container {
+  margin-top: 40px;
+}
+
+.task-card {
+  background: #1f1f1f;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.task-actions {
+  margin-top: 15px;
+}
+
+.done-btn {
+  background: #3ecf3e;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.delete-btn {
+  background: #e63946;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+}
+
+.no-tasks {
+  text-align: center;
+  margin-top: 20px;
+  color: #bbb;
+}
